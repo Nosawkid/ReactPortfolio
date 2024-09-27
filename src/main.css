@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Raleway", serif;
+}
+.header {
+  font-family: "Playfair Display", serif;
+}
+.custom-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.custom-link:hover {
+  transform: scale(1.01);
+}
+
+.location {
+  background-color: rgba(0, 128, 0, 0.203);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+iframe::-webkit-scrollbar {
+  display: none;
+}
