@@ -7,9 +7,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <p className="mb-0">
-              &copy; {new Date().getFullYear()} Yaseen. All rights reserved.
-            </p>
+            <p className="mb-0">&copy; {new Date().getFullYear()}</p>
             <p>
               Template inspired from
               <a
