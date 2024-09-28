@@ -6,7 +6,7 @@ const AboutMe = () => {
     <Container className="mt-5" id="about-me">
       <Row className="justify-content-center">
         <Col md={10} lg={8}>
-          <Card className="text-left">
+          <Card style={{ textAlign: "justify" }}>
             <Card.Body>
               <Card.Title>About Me</Card.Title>
               <Card.Text>

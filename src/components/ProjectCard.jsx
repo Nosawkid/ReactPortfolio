@@ -5,13 +5,14 @@ const ProjectCard = ({ title, desc, link, level, ap, completed }) => {
   return (
     <div>
       <Card
+        className="mt-3"
         style={{
-          width: "20rem",
+          width: "100%",
           borderRadius: "15px",
           overflow: "hidden",
           transition: "transform 0.3s, box-shadow 0.3s",
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
-          margin: "20px",
+
           height: "25rem",
         }}
         onMouseEnter={(e) => {
