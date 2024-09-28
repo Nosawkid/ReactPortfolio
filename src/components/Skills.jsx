@@ -3,12 +3,12 @@ import { ListGroup, ProgressBar } from "react-bootstrap";
 const Skills = () => {
   const levels = [
     { name: "HTML", level: 90, color: "danger" },
-    { name: "CSS", level: 60, color: "info" },
+    { name: "CSS", level: 60, color: "primary" },
     { name: "JavaScript", level: 80, color: "warning" },
-    { name: "Express", level: 40, color: "info" },
-    { name: "MongoDB", level: 60, color: "success" },
-    { name: "React", level: 30, color: "primary" },
-    { name: "Problem Solving", level: 80, color: "primary" },
+    { name: "Express", level: 60, color: "info" },
+    { name: "MongoDB", level: 40, color: "success" },
+    { name: "React", level: 45, color: "primary" },
+    { name: "Problem Solving", level: 70, color: "danger" },
   ];
 
   levels.sort((a, b) => b.level - a.level);

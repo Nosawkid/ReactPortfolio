@@ -16,12 +16,12 @@ const SocialLinks = () => {
     {
       name: "Twitter",
       icon: <FaTwitter />,
-      url: "https://twitter.com/",
+      url: "https://x.com/Nosawkid",
     },
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      url: "https://instagram.com/",
+      url: "https://www.instagram.com/nataniel_richardson/",
     },
   ];
 
